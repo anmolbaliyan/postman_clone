@@ -42,6 +42,7 @@ app.use('/api', require('./routes/requestRoutes'));
 app.use('/api', require('./routes/environmentRoutes'));
 app.use('/api', require('./routes/requestHistoryRoutes'));
 app.use('/api', require('./routes/roleRoutes'));
+app.use('/api', require('./routes/userworkspaceroleRoute'));
 app.use('/api/users', require('./routes/userRoutes'));
 app.use('/api', require('./routes/folderRoutes'));
 
